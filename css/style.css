@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Abhaya+Libre';
 body{
-	background: #04E762;
+	background: #001365;
 	padding: 36px;
 	font-family: 'Abhaya', serif;
 }
@@ -12,7 +12,7 @@ input[type="text"]:focus {
     background: transparent;
     border: none !important;
     width: 100%;
-    color: #43291F;
+    color: white;
     box-shadow: none !important;
     height: 4rem !important;
 }
@@ -38,4 +38,21 @@ input[type="text"]:focus {
 }
 .statusInput h2{
 	color: white;
+}
+
+
+/*Aesthetic*/
+.profile-picture {
+    width: 100px;
+    max-height: 100px;
+}
+.twitter-handle {
+    opacity: 0.5;
+    font-size: 1.5em;
+    color: white;
+}
+.stuck-on-feed {
+    font-size: 2em;
+    margin-top: 0px;
+    color: white;
 }
