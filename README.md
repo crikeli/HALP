@@ -6,11 +6,12 @@ To run the application locally, Follow these instructions.
  - Follow the instructions and create a new app (It's free).
 
  - Then, simply run these commands in the terminal in order
-`git clone https://github.com/crikeli/HALP`
+ 
+ `git clone https://github.com/crikeli/HALP`
 
-`cd HALP`
+ `cd HALP`
 
-`touch config.json`
+ `touch config.json`
 
  - Retrieve the username and password from appbase.io and populate the config.json file like so:
  
