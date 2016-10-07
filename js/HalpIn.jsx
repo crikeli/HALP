@@ -110,7 +110,7 @@ var TwitterInput = React.createClass({
     render: function() {
         return (
             <div className="statusInput">
-                <h2>What is your twitter, YO! </h2>
+                <h2>What's your twitter, YO! </h2>
                 <input type = "text" onKeyPress = {this._handleKeyPress} placeholder="@yourhandle" ref="nameInput" />
             </div>
         )
@@ -135,7 +135,7 @@ var StatusInput = React.createClass({
     render: function() {
         return (
             <div className="statusInput">
-                <h2>I am stuck on </h2>
+                <h2>I need HALP with</h2>
                 <input type = "text" onKeyPress = {this._handleKeyPress} placeholder={this.props.placeholder} ref="statusInput" />
             </div>
         )
